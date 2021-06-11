@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html class="loading" lang="{{str_replace('_','-',app()->getlocale())}}" data-textdirection="rtl">
+<html class="loading" 
+lang="en" 
+data-textdirection="{{ app()->getlocale()==='ar' ? 'rtl':'ltr' }}">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

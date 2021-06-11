@@ -13,11 +13,11 @@ class SettingDatabaseSeeder extends Seeder
     public function run()
     {
         Setting::setMany([
-            'default_locale' => 'ar',
+            'default_locale' => 'en',
             'default_timezone' => 'Africa/Cairo',
             'default_currency' => 'USD',
             'supported_currencies' => ['USD','LE','SAR'],
-            'store_email' => 'admin@ecommerce.test',
+            'store_email' => 'admin@gmail.com',
             'search_engine' => 'mysql',
             'local_shipping_cost' => 0,
             'outer_shipping_cost' => 0,

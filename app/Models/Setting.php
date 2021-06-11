@@ -2,13 +2,13 @@
 
 namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
-
 use Astrotomic\Translatable\Translatable;
 class Setting extends Model
 {
     use Translatable;
     protected $with = ['translations'];
     // names of calloumns in "SettingTranslation.php" whitch will translate 
+	// $translatedAttributes = ['name','value','time'] columns that will translate according to your table
     protected $translatedAttributes = ['value'];
 
     /**
