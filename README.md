@@ -19,16 +19,16 @@ Multi users, multi language using:
 - php run serve
 
 - to add admin in first time
-    php artisan tinker
-    $admin = new App\Models\Admin();
-    $admin->name = "ayman";
-    $admin->email = "ayman@gmail.com";
-    $admin->password = bcrypt("123456789");
-    $admin->save();
+    $ php artisan tinker
+    - $admin = new App\Models\Admin();
+    - $admin->name = "ayman";
+    - $admin->email = "ayman@gmail.com";
+    - $admin->password = bcrypt("123456789");
+    - $admin->save();
 
 ## Demo
 
-**[MarxManagear at heroku in progress](https://vehikl.com/)**
+**[MarxManagear at heroku (in progress)](https://vehikl.com/)**
 
 ## License
 
